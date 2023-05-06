@@ -46,10 +46,17 @@
 
              
         </style>
-    <meta http-equiv="refresh" content="5000"></head>
+    </head>
 
 
     <body>
+        <script>
+            function autoRefresh() {
+                window.location = window.location.href;
+            }
+            setInterval('autoRefresh()', 5000);
+        </script>
+        
         <div class="card" style="width: 100%">
             
             
@@ -88,7 +95,7 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"group": "afs", "id": 1145, "label": "sndkn", "shape": "dot", "title": "1145 | sdkjfsafsfasafsfa"}]);
+                  nodes = new vis.DataSet([{"group": "afs", "id": 1613, "label": "sndkn", "shape": "dot", "title": "1613 | sdkjfsafsfasafsfa"}]);
                   edges = new vis.DataSet([]);
 
                   nodeColors = {};
