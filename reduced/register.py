@@ -2,25 +2,44 @@ from pyvis.network import Network
 import random
 
 class Node:
-    def __init__(self, name, desc, tags):
+    def __init__(self, name, desc, tags, id=0):
         self.name = name
         self.desc = desc
         self.tags = tags
-        self.node_id = random.randint(1000, 2000)
+
+        if id:  self.node_id = id
+        else:   self.node_id =  str(hex(random.randint(16**4, 16**6)))[2:]
+    
 
 class Edge:
-    def __init__(self, source_id, target_id, desc=None):
+    def __init__(self, source_id, target_id, desc=None, id=0):
         self.source_id = source_id
         self.target_id = target_id
         self.desc = desc
-        self.edge_id = random.randint(10000, 20000)
+        
+        if id:  self.node_id = id
+        else:   self.node_id =  str(hex(random.randint(16**4, 16**6)))[2:]
 
 class Graph:
     def __init__(self):
         self.nodes = {}
         self.edges = {}
         self.adj_matrix = {}
-        
+
+        #will contain recent changes to be commited to net obj
+        self.to_update = {}
+        self.net = Network()
+    
+
+    def save_graph(self, filename):
+        with open(filename, 'wb') as file:
+            pickle.dump(self, file)
+
+    def load_graph(filename):
+        with open(filename, 'rb') as file:
+            self = pickle.load(file)
+            return self
+    
     def list_tags(self):
         tags = set()
         for node in self.nodes.values():
