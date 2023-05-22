@@ -1,0 +1,536 @@
+{
+    "name": "ar",
+    "desc": "com.google.ar.core",
+    "tags": [
+        ""
+    ],
+    "node_id": "713"
+}
+{
+    "name": "Anchor",
+    "desc": "Describes a fixed location and orientation in the real world.",
+    "tags": [
+        "class"
+    ],
+    "node_id": "80f"
+}
+{
+    "name": "ArCoreApk",
+    "desc": "Static methods for managing the status of ARCore on the device. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "b51"
+}
+{
+    "name": "AugmentedFace",
+    "desc": "Describes a face detected by ARCore and provides methods to access additional center and face region poses as well as face mesh related data. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "afa"
+}
+{
+    "name": "AugmentedImage",
+    "desc": "Describes the current best knowledge of a real-world augmented image. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "c27"
+}
+{
+    "name": "AugmentedImageDatabase",
+    "desc": "Database containing a list of images to be detected and tracked by ARCore. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "fc7"
+}
+{
+    "name": "Camera",
+    "desc": "Provides information about the camera that is used to capture images. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "1bd"
+}
+{
+    "name": "CameraConfig",
+    "desc": "Provides details of a camera configuration such as size of the CPU image and GPU texture. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "24d"
+}
+{
+    "name": "CameraConfigFilter",
+    "desc": "Allows the application to select the camera config filters it needs to enable/disable so that it can obtain the list of camera configs that are supported on the device camera. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "8ff"
+}
+{
+    "name": "CameraIntrinsics",
+    "desc": "Provides information about the physical characteristics of the device camera, for the camera image (CPU) or texture (GPU). ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "5be"
+}
+{
+    "name": "Config",
+    "desc": "Holds settings that are used to configure the session. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "38e"
+}
+{
+    "name": "DepthPoint",
+    "desc": "On supported devices, represents a depth image based HitResult returned by Frame.hitTest(float, float). ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "6fb"
+}
+{
+    "name": "Earth",
+    "desc": "A Trackable implementation representing the Earth. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "433"
+}
+{
+    "name": "Frame",
+    "desc": "Captures the state and changes to the AR system from a call to Session.update(). ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "186"
+}
+{
+    "name": "GeospatialPose",
+    "desc": "Describes a specific location, elevation, and orientation relative to Earth. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "caf"
+}
+{
+    "name": "HitResult",
+    "desc": "Defines an intersection between a ray and estimated real-world geometry. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "74b"
+}
+{
+    "name": "HostCloudAnchorFuture",
+    "desc": "Handle to an async operation launched by Session.hostCloudAnchorAsync(Anchor, int, BiConsumer). ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "ec1"
+}
+{
+    "name": "ImageFormat",
+    "desc": "Image formats produced by ARCore. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "9dd"
+}
+{
+    "name": "ImageMetadata",
+    "desc": "Provides access to metadata from the camera image capture result. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "70e"
+}
+{
+    "name": "InstantPlacementPoint",
+    "desc": "Trackable Instant Placement point returned by Frame.hitTestInstantPlacement(float, float, float). ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "701"
+}
+{
+    "name": "LightEstimate",
+    "desc": "Holds information about the estimated lighting of the real scene. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "a64"
+}
+{
+    "name": "Mesh",
+    "desc": "Represents a polygon mesh describing geometry. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "df6"
+}
+{
+    "name": "Plane",
+    "desc": "Describes the current best knowledge of a real-world planar surface. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "b92"
+}
+{
+    "name": "Point",
+    "desc": "Represents a point in space that ARCore is tracking. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "850"
+}
+{
+    "name": "PointCloud",
+    "desc": "Contains a set of observed 3D points and confidence values. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "b47"
+}
+{
+    "name": "Pose",
+    "desc": "Represents an immutable rigid transformation from one coordinate space to another. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "49a"
+}
+{
+    "name": "RecordingConfig",
+    "desc": "Configuration related to session recording. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "6b9"
+}
+{
+    "name": "ResolveAnchorOnRooftopFuture",
+    "desc": "Handle to an async operation launched by Earth.resolveAnchorOnRooftopAsync(double, double, double, float, float, float, float, BiConsumer). ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "4fa"
+}
+{
+    "name": "ResolveAnchorOnTerrainFuture",
+    "desc": "Handle to an async operation launched by Earth.resolveAnchorOnTerrainAsync(double, double, double, float, float, float, float, BiConsumer). ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "3d1"
+}
+{
+    "name": "ResolveCloudAnchorFuture",
+    "desc": "Handle to an async operation launched by Session.resolveCloudAnchorAsync(String, BiConsumer). ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "84d"
+}
+{
+    "name": "Session",
+    "desc": "Manages AR system state and handles the session lifecycle. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "872"
+}
+{
+    "name": "SharedCamera",
+    "desc": "The SharedCamera class allows the app to share control of the camera with ARCore and obtain image readers and surfaces for rendering. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "e06"
+}
+{
+    "name": "StreetscapeGeometry",
+    "desc": "Defines geometry such as terrain, buildings, or other structures obtained from the Streetscape Geometry API. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "a29"
+}
+{
+    "name": "Track",
+    "desc": "Configuration of a Track for recording data on session recording. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "97e"
+}
+{
+    "name": "TrackData",
+    "desc": "Data that was recorded to a track. ",
+    "tags": [
+        "class"
+    ],
+    "node_id": "104"
+}
+{
+    "name": "VpsAvailabilityFuture",
+    "desc": "Handle to an async operation launched by Session.checkVpsAvailabilityAsync(double, double, Consumer).",
+    "tags": [
+        "class"
+    ],
+    "node_id": "27d"
+}
+{
+    "name": "detach()",
+    "desc": "void <- Detaches this Anchor from its Trackable removes it from the Session.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "17b"
+}
+{
+    "name": "equals(Object obj)",
+    "desc": "boolean <- Indicates whether some other object is an Anchor referencing the same logical anchor as this one.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "3da"
+}
+{
+    "name": "getCloudAnchorId()",
+    "desc": "String <- This method is deprecated. For cloud anchors hosted by the async method Session.hostCloudAnchorAsync(Anchor, int, BiConsumer), the result Cloud Anchor ID can be obtained from the corresponding callback or Future object. This method will always return the empty string for anchors created through async methods.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "d7c"
+}
+{
+    "name": "getCloudAnchorState()",
+    "desc": "Anchor.CloudAnchorState <- This method is deprecated. For Cloud Anchor operations created by the async Cloud Anchor methods, the result state can be obtained from the corresponding callback or Future object. This method will always return Anchor.CloudAnchorState.NONE for anchors created through async methods.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "479"
+}
+{
+    "name": "getPose()",
+    "desc": "Pose <- Returns the pose of the anchor in the world coordinate space.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "9ff"
+}
+{
+    "name": "getTerrainAnchorState()",
+    "desc": "Anchor.TerrainAnchorState <- This method is deprecated. For resolve operations created by the async method Earth.resolveAnchorOnTerrainAsync(double, double, double, float, float, float, float, BiConsumer), the result state can be obtained for the callback or future object.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "258"
+}
+{
+    "name": "getTrackingState()",
+    "desc": "TrackingState <- Returns the current state of the pose of this anchor.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "5c1"
+}
+{
+    "name": "hashCode()",
+    "desc": "int <- Returns a hash code value for the object.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "671"
+}
+{
+    "name": "createAnchor()",
+    "desc": "Anchor <- Creates a new anchor at the hit location.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "93c"
+}
+{
+    "name": "equals(Object obj)",
+    "desc": "boolean <- Indicates whether some other object is a HitResult referencing the same logical hit result as this one.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "cdb"
+}
+{
+    "name": "getDistance()",
+    "desc": "float <- Returns the distance from the camera to the hit location, in meters.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "1fe"
+}
+{
+    "name": "getHitPose()",
+    "desc": "Pose <- Returns the pose of the intersection between a ray and detected real-world geometry.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "7ee"
+}
+{
+    "name": "getTrackable()",
+    "desc": "Trackable <- Returns the Trackable that was hit.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "3a2"
+}
+{
+    "name": "hashCode()",
+    "desc": "int <- Returns a hash code value for the object.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "141"
+}
+{
+    "name": "getIndexList()",
+    "desc": "IntBuffer <- Retrieves the triangle data for this mesh in a buffer of length getIndexListSize().",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "afe"
+}
+{
+    "name": "getIndexListSize()",
+    "desc": "int <- Retrieves the number of triangle indices (represented by getIndexList()) in this mesh.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "cd7"
+}
+{
+    "name": "getVertexList()",
+    "desc": "FloatBuffer <- Retrieves the vertex coordinate data for this mesh.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "e34"
+}
+{
+    "name": "getVertexListSize()",
+    "desc": "int <- Retrieves the number of vertices in this mesh.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "138"
+}
+{
+    "name": "createAnchor(Pose pose)",
+    "desc": "Anchor <- Creates an anchor that is attached to this trackable, using the given initial pose in the world coordinate space.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "60f"
+}
+{
+    "name": "equals(Object obj)",
+    "desc": "boolean <- Indicates whether some other object is a Trackable referencing the same logical trackable as this one.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "301"
+}
+{
+    "name": "getAnchors()",
+    "desc": "Collection<Anchor> <- Gets the Anchors attached to this trackable.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "e1c"
+}
+{
+    "name": "getCenterPose()",
+    "desc": "Pose <- Returns the pose of the center of the detected plane.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "3f9"
+}
+{
+    "name": "getExtentX()",
+    "desc": "float <- Returns the length of this plane's bounding rectangle measured along the local X-axis of the coordinate space centered on the plane.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "e30"
+}
+{
+    "name": "getExtentZ()",
+    "desc": "float <- Returns the length of this plane's bounding rectangle measured along the local Z-axis of the coordinate frame centered on the plane.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "cfb"
+}
+{
+    "name": "getPolygon()",
+    "desc": "FloatBuffer <- Returns the 2D vertices of a convex polygon approximating the detected plane, in the form [x1, z1, x2, z2, ...].",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "7eb"
+}
+{
+    "name": "getSubsumedBy()",
+    "desc": "Plane <- If this plane has been subsumed, returns the plane this plane was merged into.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "2e0"
+}
+{
+    "name": "getTrackingState()",
+    "desc": "TrackingState <- Gets this trackable's TrackingState.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "e31"
+}
+{
+    "name": "getType()",
+    "desc": "Plane.Type <- Returns the type of this plane.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "bbb"
+}
+{
+    "name": "hashCode()",
+    "desc": "int <- Returns a hash code value for the object.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "f70"
+}
+{
+    "name": "isPoseInExtents(Pose pose)",
+    "desc": "boolean <- Returns true if the given pose (usually obtained from a HitResult) is in the plane's rectangular extents.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "e6e"
+}
+{
+    "name": "isPoseInPolygon(Pose pose)",
+    "desc": "boolean <- Returns true if the given pose (usually obtained from a HitResult) is in the plane's polygon.",
+    "tags": [
+        "class-fun"
+    ],
+    "node_id": "f2d"
+}
